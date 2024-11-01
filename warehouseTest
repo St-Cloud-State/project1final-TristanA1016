@@ -1,0 +1,1036 @@
+Script started on 2024-11-01 04:18:03+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="219" LINES="43"]
+[0;32m@TristanA1016 [0m➜ [1;34m/workspaces/project1final-TristanA1016 [0;36m([1;31mmain[0;36m) [0m$ java WarehouseManagementSystemDriver[16Pscript warehouseTestjava WarehouseManagementSystemDriverc *.java[K
+[0;32m@TristanA1016 [0m➜ [1;34m/workspaces/project1final-TristanA1016 [0;36m([1;31mmain[0;36m) [0m$ javac *.java WarehouseManagementSystemDriver
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 11
+Enter the number of default clients to add: 5
+5 default clients added.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 7
+All Clients:
+ClientID: 1, Name: C1, Address: Address_1, Contact: Contact_1, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 3, Name: C2, Address: Address_2, Contact: Contact_2, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 5, Name: C3, Address: Address_3, Contact: Contact_3, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 7, Name: C4, Address: Address_4, Contact: Contact_4, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 9, Name: C5, Address: Address_5, Contact: Contact_5, Credit Account: 0.0, Debit Account: 0.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 3
+Enter warehouse ID: 0
+Enter Product ID: 1
+Enter Product Name: P1
+Enter Product Description: 1
+Enter Product Price: 1.0
+Enter Stock Quantity: 10
+Product added to warehouse.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 3
+Enter warehouse ID: 0
+Enter Product ID: 2
+Enter Product Name: P2
+Enter Product Description: 2
+Enter Product Price: 2.0
+Enter Stock Quantity: 20
+Product added to warehouse.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 3
+Enter warehouse ID: 0
+Enter Product ID: 3
+Enter Product Name: P3
+Enter Product Description: 3
+Enter Product Price: 3.0
+Enter Stock Quantity: 30
+Product added to warehouse.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 3
+Enter warehouse ID: 0
+Enter Product ID: 4
+Enter Product Name: P4
+Enter Product Description: 4
+Enter Product Price: 4.0
+Enter Stock Quantity: 40
+Product added to warehouse.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 3
+Enter warehouse ID: 0
+Enter Product ID: 5
+Enter Product Name: P5
+Enter Product Description: 5
+Enter Product Price: 5.0
+Enter Stock Quantity: 50
+Product added to warehouse.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 13
+Enter Warehouse ID: 0
+Products in Warehouse 0:
+Product ID: 1 Product Name: P1 Description: 1 Price: $1.0 Stock Quantity: 10
+
+
+Product ID: 2 Product Name: P2 Description: 2 Price: $2.0 Stock Quantity: 20
+
+
+Product ID: 3 Product Name: P3 Description: 3 Price: $3.0 Stock Quantity: 30
+
+
+Product ID: 4 Product Name: P4 Description: 4 Price: $4.0 Stock Quantity: 40
+
+
+Product ID: 5 Product Name: P5 Description: 5 Price: $5.0 Stock Quantity: 50
+
+
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 1
+Enter product ID: 1
+Enter quantity: 5
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 1
+Enter product ID: 3
+Enter quantity: 5
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 1
+Enter product ID: 5
+Enter quantity: 5
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 14
+Enter Client ID: 1
+Wishlist for client ID: 1
+Product ID: 1, Desired Quantity: 5
+Product ID: 3, Desired Quantity: 5
+Product ID: 5, Desired Quantity: 5
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 3
+Enter product ID: 1
+Enter quantity: 7
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 3
+Enter product ID: 2
+Enter quantity: 7
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 3
+Enter product ID: 4
+Enter quantity: 7
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 14
+Enter Client ID: 3
+Wishlist for client ID: 3
+Product ID: 1, Desired Quantity: 7
+Product ID: 2, Desired Quantity: 7
+Product ID: 4, Desired Quantity: 7
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 5
+Enter product ID: 1
+Enter quantity: 6
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 5
+Enter product ID: 2
+Enter quantity: 6
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 9
+Enter client ID: 5
+Enter product ID: 5
+Enter quantity: 6
+Product added/updated in wishlist.
+Product added to wishlist.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 14
+Enter Client ID: 5
+Wishlist for client ID: 5
+Product ID: 1, Desired Quantity: 6
+Product ID: 2, Desired Quantity: 6
+Product ID: 5, Desired Quantity: 6
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 15
+enter Client ID: 3
+enter the loop
+Reduced stock for Product ID 1 by 7.
+enter the loop
+Reduced stock for Product ID 2 by 7.
+enter the loop
+Reduced stock for Product ID 4 by 7.
+Wishlist has been cleared.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 7
+All Clients:
+ClientID: 1, Name: C1, Address: Address_1, Contact: Contact_1, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 3, Name: C2, Address: Address_2, Contact: Contact_2, Credit Account: 49.0, Debit Account: 0.0
+ClientID: 5, Name: C3, Address: Address_3, Contact: Contact_3, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 7, Name: C4, Address: Address_4, Contact: Contact_4, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 9, Name: C5, Address: Address_5, Contact: Contact_5, Credit Account: 0.0, Debit Account: 0.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 15
+enter Client ID: 5
+enter the loop
+Not enough stock for P1. Requested: 6, Available: 3
+Failed to reduce stock for Product ID 1. Not enough stock.
+Added to waitlist: Client C3, Product P1, Quantity: 6
+enter the loop
+Reduced stock for Product ID 2 by 6.
+enter the loop
+Reduced stock for Product ID 5 by 6.
+Wishlist has been cleared.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 7
+All Clients:
+ClientID: 1, Name: C1, Address: Address_1, Contact: Contact_1, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 3, Name: C2, Address: Address_2, Contact: Contact_2, Credit Account: 49.0, Debit Account: 0.0
+ClientID: 5, Name: C3, Address: Address_3, Contact: Contact_3, Credit Account: 48.0, Debit Account: 0.0
+ClientID: 7, Name: C4, Address: Address_4, Contact: Contact_4, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 9, Name: C5, Address: Address_5, Contact: Contact_5, Credit Account: 0.0, Debit Account: 0.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 14
+Enter Client ID: 3
+Wishlist for client ID: 3
+Wishlist is empty.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 14
+Enter Client ID: 5
+Wishlist for client ID: 5
+Wishlist is empty.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 16
+Enter Warehouse ID: 0
+Enter product ID: 1
+Waitlist for product: P1
+Client ID: 5, Quantity: 6
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 16
+Enter Warehouse ID: 0
+Enter product ID: 2
+The waitlist for P2 is currently empty.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 15
+enter Client ID: 1
+enter the loop
+Not enough stock for P1. Requested: 5, Available: 3
+Failed to reduce stock for Product ID 1. Not enough stock.
+Added to waitlist: Client C1, Product P1, Quantity: 5
+enter the loop
+Reduced stock for Product ID 3 by 5.
+enter the loop
+Reduced stock for Product ID 5 by 5.
+Wishlist has been cleared.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 7
+All Clients:
+ClientID: 1, Name: C1, Address: Address_1, Contact: Contact_1, Credit Account: 45.0, Debit Account: 0.0
+ClientID: 3, Name: C2, Address: Address_2, Contact: Contact_2, Credit Account: 49.0, Debit Account: 0.0
+ClientID: 5, Name: C3, Address: Address_3, Contact: Contact_3, Credit Account: 48.0, Debit Account: 0.0
+ClientID: 7, Name: C4, Address: Address_4, Contact: Contact_4, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 9, Name: C5, Address: Address_5, Contact: Contact_5, Credit Account: 0.0, Debit Account: 0.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 14
+Enter Client ID: 1
+Wishlist for client ID: 1
+Wishlist is empty.
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 17
+Enter client ID to add payment: 1
+Enter payment amount: 100.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 17
+Enter client ID to add payment: 3
+Enter payment amount: 100.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 7
+All Clients:
+ClientID: 1, Name: C1, Address: Address_1, Contact: Contact_1, Credit Account: 0.0, Debit Account: 55.0
+ClientID: 3, Name: C2, Address: Address_2, Contact: Contact_2, Credit Account: 0.0, Debit Account: 51.0
+ClientID: 5, Name: C3, Address: Address_3, Contact: Contact_3, Credit Account: 48.0, Debit Account: 0.0
+ClientID: 7, Name: C4, Address: Address_4, Contact: Contact_4, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 9, Name: C5, Address: Address_5, Contact: Contact_5, Credit Account: 0.0, Debit Account: 0.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 18
+Enter product ID to add shipment: 1
+Enter amount of product: 100
+Stock updated for P1. New stock: 103
+Checking waitlist for product: P1
+Can fulfill waitlist for Client ID: 5, Quantity: 6
+Can fulfill waitlist for Client ID: 1, Quantity: 5
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 13
+Enter Warehouse ID: 0
+Products in Warehouse 0:
+Product ID: 1 Product Name: P1 Description: 1 Price: $1.0 Stock Quantity: 92
+
+
+Product ID: 2 Product Name: P2 Description: 2 Price: $2.0 Stock Quantity: 7
+
+
+Product ID: 3 Product Name: P3 Description: 3 Price: $3.0 Stock Quantity: 25
+
+
+Product ID: 4 Product Name: P4 Description: 4 Price: $4.0 Stock Quantity: 33
+
+
+Product ID: 5 Product Name: P5 Description: 5 Price: $5.0 Stock Quantity: 39
+
+
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 7
+All Clients:
+ClientID: 1, Name: C1, Address: Address_1, Contact: Contact_1, Credit Account: 0.0, Debit Account: 55.0
+ClientID: 3, Name: C2, Address: Address_2, Contact: Contact_2, Credit Account: 0.0, Debit Account: 51.0
+ClientID: 5, Name: C3, Address: Address_3, Contact: Contact_3, Credit Account: 48.0, Debit Account: 0.0
+ClientID: 7, Name: C4, Address: Address_4, Contact: Contact_4, Credit Account: 0.0, Debit Account: 0.0
+ClientID: 9, Name: C5, Address: Address_5, Contact: Contact_5, Credit Account: 0.0, Debit Account: 0.0
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 19
+Enter client ID to view orders: 1
+Orders placed by the client:
+Order ID: 1, Client ID: 1, Items: {1=5, 3=5, 5=5}
+
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 19
+Enter client ID to view orders: 3
+Orders placed by the client:
+Order ID: 1, Client ID: 3, Items: {1=7, 2=7, 4=7}
+
+Warehouse Management System
+1. Add Client
+2. Add Warehouse
+3. Add Product to Warehouse
+4. Remove Client
+5. Remove Product from Warehouse
+6. Remove Warehouse
+7. View All Clients
+14. View Clients wishlist
+15. Buy Clients wishlist
+13. View all Products in Warehouse
+16. View product waitlist
+8. View All Warehouses
+9. Add Product to Client Wishlist
+11. Add multiple defualt clients
+17. Add payment to client
+18. Add Shipment of Product
+19: View all Orders/Invoices for a Client
+10. Exit
+Enter your choice: 10
+Exiting system.
+[0;32m@TristanA1016 [0m➜ [1;34m/workspaces/project1final-TristanA1016 [0;36m([1;31mmain[0;36m) [0m$ exit
+
+Script done on 2024-11-01 04:34:28+00:00 [COMMAND_EXIT_CODE="0"]
