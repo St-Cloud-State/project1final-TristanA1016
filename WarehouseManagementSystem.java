@@ -108,6 +108,7 @@ public class WarehouseManagementSystem implements Serializable {
             System.out.println("11. Add multiple defualt clients");
             System.out.println("17. Add payment to client");
             System.out.println("18. Add Shipment of Product");
+            System.out.println("19: View all Orders/Invoices for a Client");
             System.out.println("10. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
@@ -308,6 +309,7 @@ public class WarehouseManagementSystem implements Serializable {
                     if(chargeClient.getCreditAccount() > 0 && chargeClient.getCreditAccount() >= paymentAmount){
                         chargeClient.setCreditAccount(chargeClient.getCreditAccount() - paymentAmount);
                     }else if(chargeClient.getCreditAccount() > 0 && chargeClient.getCreditAccount() < paymentAmount){
+                        paymentAmount = paymentAmount - chargeClient.getCreditAccount();
                         chargeClient.setCreditAccount(0);
                         chargeClient.setDebitAccount(paymentAmount + chargeClient.getDebitAccount());
                     }else{
@@ -341,10 +343,10 @@ public class WarehouseManagementSystem implements Serializable {
                         double totalPrice = 0;
                         // Get wishlist items
                         HashMap<Integer, Integer> wishlistItems = orderClient.getWishlist().getWishlistItems();
+                        HashMap<Integer, Integer> wishlistItemsCopy = new HashMap<>(wishlistItems);
                         //make and add the order
-                        Order order1 = new Order(orderClient.getOrders().size() + 1, clientOrderID, wishlistItems);
+                        Order order1 = new Order(orderClient.getOrders().size() + 1, clientOrderID, wishlistItemsCopy);
                         orderClient.createOrder(order1);
-                        
 
 
                         //reduce stock, change account balances, and update waitlist if needed
@@ -406,19 +408,12 @@ public class WarehouseManagementSystem implements Serializable {
                             while (iterator.hasNext()) {
                                 Waitlist entry = iterator.next();
                                 int waitlistQuantity = entry.getQuantity();
-                                int waitlisClientID = entry.getClientID();
-                                Client waitlistClient = getClientById(waitlisClientID);
                                 
                                 // Compare shipment amount with waitlist entry
                                 if (shipmentProduct.getStockQuantity() >= waitlistQuantity) {
                                     System.out.println("Can fulfill waitlist for Client ID: " + entry.getClientID() +
                                                     ", Quantity: " + waitlistQuantity);
                                     shipmentProduct.reduceStock(waitlistQuantity); // Decrease the remaining amount
-                                    HashMap<Integer, Integer> singleOrderMap = new HashMap<>();
-                                    singleOrderMap.put(shipmentProduct.getProductID(), waitlistQuantity);
-                                    Order order2 = new Order(waitlistClient.getOrders().size() + 1, waitlisClientID, singleOrderMap);
-                                    waitlistClient.createOrder(order2);
-
                                     iterator.remove(); // Remove the entry from the waitlist
                                 } else {
                                     System.out.println("Not enough stock to fulfill waitlist for Client ID: " + entry.getClientID() +
@@ -431,6 +426,21 @@ public class WarehouseManagementSystem implements Serializable {
                     }
                     break;
                 }
+
+                case 19: {
+                    System.out.print("Enter client ID to view orders: ");
+                    int clientID2 = scanner.nextInt();
+                    Client clientO = getClientById(clientID2);
+                    
+                    if (clientO != null) { // Check if the client exists
+                        clientO.viewOrders(); // Use the viewOrders method in Client class
+                    } else {
+                        System.out.println("Client not found.");
+                    }
+                    break;
+                }
+                
+                
     
                 default:
                     System.out.println("Invalid choice. Please try again.");

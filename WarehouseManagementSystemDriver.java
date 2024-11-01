@@ -6,6 +6,5 @@ public class WarehouseManagementSystemDriver {
         wms.setSystemID(1);
         wms.run();
         
-        
 }
 }
